@@ -26,6 +26,7 @@ In modern data-driven applications, processing data in real-time is crucial for 
 
 ## MSK Cluster Creation
 1. Create an Amazon MSK cluster following the required specifications for the consumer-side project.
+![](https://github.com/vighneshbuddhivant/Real-Time-Data-Pipeline-Using-Amazon-MSK-and-AWS-Lambda-Producer-side/blob/0be75c4f722755bbda3571e4e0f2b775a8606a6a/msk-cluster.png)
   
 ## EC2 Instance Configuration
 1. Launch an EC2 instance within the same VPC to act as a client machine.
