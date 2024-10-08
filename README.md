@@ -4,6 +4,8 @@
 In modern data-driven applications, processing data in real-time is crucial for timely insights and decision-making. This project demonstrates a real-time data pipeline using Amazon Managed Streaming for Apache Kafka (MSK) and AWS Lambda. The architecture captures data from a third-party application (via an API or through SQS/DynamoDB), processes it, and sends it to an MSK topic for further analysis or storage in a data warehouse.
 
 ## Architecture
+![](https://github.com/vighneshbuddhivant/Real-Time-Data-Pipeline-Using-Amazon-MSK-and-AWS-Lambda-Producer-side/blob/64fc95beb74751758ef381ca2d9dbe92651d6bfc/lambda-msk-arch.png)
+
 1. **Data Source**: A third-party application or web browser sends data through an API to an AWS service (such as SQS or DynamoDB).
 2. **Lambda Function**: An AWS Lambda function captures the incoming requests, processes the data, and publishes it to an MSK topic.
 3. **MSK Cluster**: The data is stored in an Amazon MSK topic for further processing.
